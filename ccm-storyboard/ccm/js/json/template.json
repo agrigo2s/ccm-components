@@ -15,11 +15,6 @@
     "inner": [
       {
         "tag": "div",
-        "class": "id",
-        "inner": "%id%"
-      },
-      {
-        "tag": "div",
         "class": "date",
         "inner": "%date%"
       },
@@ -52,11 +47,6 @@
         },
         {
           "tag": "br"
-        },
-        {
-          "tag": "input",
-          "placeholder": "Name",
-          "class": "story_inp_name"
         },
         {
           "tag": "br"
