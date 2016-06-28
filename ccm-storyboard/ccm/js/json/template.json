@@ -1,0 +1,107 @@
+{
+  "main": {
+    "tag": "div",
+    "class": "app_wrap"
+  },
+  "headline": {
+    "tag": "h1",
+    "class": "headline"
+  },
+
+
+  "story": {
+    "tag": "div",
+    "class": "story temp",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "id",
+        "inner": "%id%"
+      },
+      {
+        "tag": "div",
+        "class": "date",
+        "inner": "%date%"
+      },
+      {
+        "tag": "div",
+        "class": "name",
+        "inner": "%name%"
+      },
+      {
+        "tag": "div",
+        "class": "title",
+        "inner": "%title%"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      }
+    ]
+  },
+  "input": {
+    "tag": "div",
+    "class": "form_wrap",
+    "inner": {
+      "tag": "form",
+      "inner": [
+        {
+          "tag": "div",
+          "class": "create_label"
+        },
+        {
+          "tag": "br"
+        },
+        {
+          "tag": "input",
+          "placeholder": "Name",
+          "class": "story_inp_name"
+        },
+        {
+          "tag": "br"
+        },
+        {
+          "tag": "input",
+          "placeholder": "Title",
+          "class": "story_inp_title"
+        },
+        {
+          "tag": "br"
+        },
+        {
+          "tag": "textarea",
+          "placeholder": "Text",
+          "class": "story_inp_text"
+        },
+        {
+          "tag": "br"
+        },
+        {
+          "tag": "input",
+          "class": "senden_btn",
+          "type": "submit",
+          "value": "Send"
+        }
+      ],
+      "onsubmit": "%onsubmit%"
+    }
+  },
+  "delete_div": {
+    "tag": "div",
+    "class": "form_wrap",
+    "inner": {
+      "tag": "form",
+      "inner": [
+        {
+        "tag": "input",
+        "class": "loeschen_btn",
+        "type": "button",
+        "value": "Delete last",
+        "onclick": "%onclick%"
+        }
+      ]
+    }
+  }
+
+}

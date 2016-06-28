@@ -1,0 +1,50 @@
+html, body {
+    margin:0;
+    padding: 5px;
+    height:100%;
+}
+.ccm {
+}
+.story{
+    border: solid 2px black;
+
+    margin-top: 5px;
+    background-color:#99c1c1;
+}
+.headline{
+    border: solid 2px black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#99c1c1;
+}
+.form_wrap{
+    border: solid 2px black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#99c1c1;
+}
+form{
+
+    padding: 10px;
+}
+.story_inp_title:focus, .story_inp_name:focus, .story_inp_text:focus{
+    background-color: #99c1c1;
+
+}
+textarea, input {
+    margin-bottom: 5px;
+    width: 400px;
+}
+.story{
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+.senden_btn{
+    width: 419px;
+}
+.loeschen_btn{
+    width: 419px;
+}
