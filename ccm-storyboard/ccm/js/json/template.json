@@ -1,4 +1,4 @@
-{
+ccm.callback["template.json"]({
   "main": {
     "tag": "div",
     "class": "app_wrap"
@@ -93,5 +93,5 @@
       ]
     }
   }
-
 }
+);
