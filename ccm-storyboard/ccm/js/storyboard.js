@@ -1,7 +1,7 @@
 ccm.component( {
     name: 'storyboard',
     config: {
-        style: [ ccm.load, 'ccm/css/style.css' ],
+        style: [ ccm.load, 'http://www2.inf.fh-bonn-rhein-sieg.de/~agrigo2s/ccm/css/style.css' ],
         key: 'storyBoard',
         store: [ ccm.store, { url: 'ws://ccm2.inf.h-brs.de/index.js', store: 'agrigo2s_storyBoard' } ],
         html:  [ ccm.store, { local: 'http://www2.inf.fh-bonn-rhein-sieg.de/~agrigo2s/ccm/js/json/template.json' }], // Einbindung der HTML-Templates
